@@ -1,0 +1,200 @@
+@charset "utf-8";
+@media (min-width: 1281px) {
+    .slicknav_menu {
+        display: none
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .slicknav_menu {
+        display: none
+    }
+}
+
+@media (min-width: 1170px) {
+    #wrapper.toggled {
+        padding-left: 350px;
+    }
+    .off-canvas-close {
+        display: none;
+    }
+    .main_nav_cover .menu-item-has-children a::before {
+        background: #000 none repeat scroll 0 0;
+        content: "";
+        height: 4px;
+        position: absolute;
+        left: -10px;
+        top: 50%;
+        width: 4px;
+        margin-top: -2px;
+    }
+    .main_nav_cover .menu-item-has-children:hover a::before {
+        height: 8px;
+        margin-top: -4px;
+    }
+    .main_nav_cover ul.sub-menu {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main_nav_cover {
+        height: auto !important;
+        min-height: 40px;
+    }
+    .main-nav #main-menu,
+    .latest_style_1_item .alith_news_img,
+    form.search-form input.search-submit {
+        display: none !important;
+    }
+    .latest_style_1_item .alith_post_title_small {
+        left: 16% !important;
+        top: 50% !important;
+        width: auto !important;
+    }
+    #slideshow_face .alith_post_except {
+        padding-right: 50px;
+    }
+    #slideshow_face .post_meta_center {
+        margin-right: 20px;
+        padding-right: 0;
+    }
+    .post_meta {
+        font-size: 80%;
+        font-weight: 300;
+    }
+    .alith_heading_patern_2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    form.search-form input.search-field {
+        width: 100%;
+    }
+    .main-nav ul li ul.sub-menu li ul.sub-menu {
+        left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .gototop a span {
+        display: none;
+    }
+    .alith_post_content_big .alith_post_title {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-pagination {
+        margin-bottom: 30px;
+    }
+    #slideshow_face {
+        text-align: center;
+    }
+    #slideshow_face .alith_post_title {
+        font-size: 20px;
+    }
+    #slideshow_face .post_meta_center {
+        margin-bottom: 20px;
+    }
+    .header .tagline::before,
+    .header .tagline::after {
+        background: none;
+    }
+    .header .logo {
+        font-size: 40px;
+    }
+    #slideshow_big .post_meta_center,
+    #slideshow_big .alith_post_except,
+    #slideshow_big .post_meta_categories_label,
+    #slideshow_big .owl-nav,
+    .grid-post.style-1.nr-4 {
+        display: none;
+    }
+    .alith_post_content_big .alith_post_title {
+        font-size: 1.2em;
+        margin: 0;
+    }
+    .alith_heading_patern_2 {
+        font-size: 25px;
+    }
+    .alith_heading_patern_2::before,
+    .alith_heading_patern_2::after {
+        height: 10px;
+    }
+    .page_404,
+    .archive-header .post-author-info {
+        padding: 0;
+    }
+    .page_404 h1 {
+        font-size: 100px;
+    }
+    .column-2,
+    .column-3,
+    .column-4 {
+        columns: 1;
+        -moz-column-count: 1;
+        -webkit-columns: 1;
+    }
+    .post-author figure {
+        float: none;
+        margin: 0;
+    }
+    .post-author {
+        padding: 20px;
+        text-align: center;
+    }
+    ol.commentlist {
+        padding: 30px 0;
+    }
+    .grid-post {
+        height: 260px;
+        width: 100%;
+    }
+    .grid-post.style-1.nr-3 {
+        height: 280px;
+        width: 50%;
+    }
+    #slideshow_face .post_meta_center {
+        margin-right: 0;
+        border: 0;
+    }
+    #slideshow_face .alith_post_except {
+        padding-right: 0;
+    }
+    .header .tagline::before,
+    .header .tagline::after {
+        width: 0;
+    }
+    .grid_four_column .grid-sizer,
+    .grid_four_column .grid-item,
+    .grid_three_column .grid-sizer,
+    .grid_three_column .grid-item,
+    .grid_two_column .grid-item,
+    .grid_two_column .grid-sizer {
+        width: 100%;
+    }
+    .boxed {
+        border: none;
+        margin: 0 auto;
+        display: block;
+    }
+    .time {
+        border-bottom: 1px solid;
+    }
+    .single-more-articles {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+    .site-pagination {
+        font-size: 14px;
+    }
+    .time {
+        font-size: 12px;
+    }
+    .post_meta .meta_author_name {
+        display: none;
+    }
+}

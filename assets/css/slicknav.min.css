@@ -1,0 +1,155 @@
+.slicknav_btn,
+.slicknav_nav .slicknav_item {
+    cursor: pointer
+}
+
+.slicknav_menu,
+.slicknav_menu * {
+    box-sizing: border-box
+}
+
+.slicknav_btn {
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    float: right;
+    padding: .438em .625em;
+    line-height: 1.125em
+}
+
+.slicknav_btn .slicknav_icon-bar+.slicknav_icon-bar {
+    margin-top: .188em
+}
+
+.slicknav_menu .slicknav_menutxt {
+    display: block;
+    float: left;
+}
+
+.slicknav_menu .slicknav_icon {
+    float: left;
+    height: 2px;
+    width: 20px;
+    margin: .188em 0 0 .438em
+}
+
+.slicknav_menu .slicknav_icon:before {
+    background: 0 0;
+    height: 2px;
+    width: 20px;
+    display: block;
+    content: "";
+    position: absolute
+}
+
+.slicknav_menu .slicknav_no-text {
+    margin: 0
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    border-radius: 0;
+    display: block;
+    height: 2px;
+    width: 20px;
+}
+
+.slicknav_menu:after,
+.slicknav_menu:before {
+    content: " ";
+    display: table
+}
+
+.slicknav_menu:after {
+    clear: both
+}
+
+.slicknav_nav li,
+.slicknav_nav ul {
+    display: block
+}
+
+.slicknav_nav li {
+    border-bottom: 1px dotted;
+    padding: 5px 0;
+}
+
+.slicknav_nav li:last-child {
+    border: none;
+}
+
+.slicknav_nav .slicknav_arrow {
+    float: right;
+    font-size: .8em;
+    margin: 0 0 0 .4em
+}
+
+.slicknav_nav .slicknav_item a {
+    display: inline
+}
+
+.slicknav_nav .slicknav_row,
+.slicknav_nav a {
+    display: block
+}
+
+.slicknav_nav .slicknav_parent-link a {
+    display: inline
+}
+
+.slicknav_menu {
+    *zoom: 1;
+}
+
+.slicknav_nav,
+.slicknav_nav ul {
+    list-style: none;
+    overflow: hidden;
+    padding: 0
+}
+
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #333
+}
+
+.slicknav_btn {
+    border-radius: 4px;
+    margin: 0;
+    text-decoration: none
+}
+
+.slicknav_nav {
+    clear: both;
+    margin: 0;
+}
+
+.slicknav_nav ul {
+    margin: 0 0 0 20px
+}
+
+.slicknav_nav a {
+    text-decoration: none;
+}
+
+.slicknav_nav .slicknav_txtnode {
+    margin-left: 15px
+}
+
+.slicknav_nav .slicknav_item a,
+.slicknav_nav .slicknav_parent-link a {
+    padding: 0;
+    margin: 0
+}
+
+.main_nav_cover .slicknav_menu ul.sub-menu {
+    border: medium none !important;
+    margin-left: 5px;
+    min-width: 200px;
+}
+
+.main_nav_cover .slicknav_menu ul.sub-menu {
+    position: relative;
+}
+
+.slicknav_menu .menu-item-has-children a::before {
+    content: none;
+}

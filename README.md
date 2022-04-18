@@ -1,2 +1,2 @@
-# newspaper
-newspaper theme with HTML, CSS, JS, Bootstrap
+# Newspaper
+Newspaper theme with HTML, CSS, JS, Bootstrap
